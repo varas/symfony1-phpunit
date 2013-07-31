@@ -3,10 +3,10 @@ symfony1-phpunit
 
 Environment bootstap to enable testing Symfony1 apps within PHPUnit
 
-## Install
+### Install
 
 Place it on test folder
 
-## Usage
+### Usage
 
 phpunit --colors test/unit
