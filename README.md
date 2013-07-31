@@ -1,11 +1,12 @@
 symfony1-phpunit
 ================
 
-Environment bootstap to enable testing Symfony1 apps within PHPUnit
+Quick environment bootstap to enable testing Symfony1 apps within PHPUnit
 
-### Install
+### Configuration
 
-Place it on test folder
+- Place it on test folder
+- Set your app name on `bootstap/phpunit_bootstrap.php`
 
 ### Usage
 
