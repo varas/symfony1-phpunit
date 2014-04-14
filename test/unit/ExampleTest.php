@@ -6,7 +6,7 @@ class ExampleTest extends PHPUnit_Framework_TestCase
     /**
      * Enabled to allow debug() private method write to stdout
      */
-    $debug = true;
+    private $debug = true;
 
 
     /**
@@ -45,7 +45,7 @@ class ExampleTest extends PHPUnit_Framework_TestCase
      */
     public function testExample1()
     {
-        $count = Doctrine::getTable('Example')->count();
+        $count = Doctrine_Core::getTable('Example')->count();
         $this->assertEquals(11, $count);
         $this->debug($numCf);
     }
